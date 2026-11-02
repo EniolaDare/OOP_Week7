@@ -20,8 +20,8 @@ public class Member {
     public int getAge() { return age; }
 
     public void displayDetails() {
-        System.out.println(memberId);
-        System.out.println(name);
-        System.out.println(age);
+        System.out.println("Member ID: " + memberId);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
     }
 }
