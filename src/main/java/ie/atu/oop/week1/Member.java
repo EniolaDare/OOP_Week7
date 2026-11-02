@@ -8,7 +8,7 @@ public class Member {
     public Member(String memberId, String name, Integer age) {
         if (memberId == null || memberId.isBlank()) throw new IllegalArgumentException("memberId cannot be null or blank");
         if (name == null || name.isBlank()) throw new IllegalArgumentException("name cannot be null or blank");
-        if (age == null|| age <= 0) throw new IllegalArgumentException("age cannot must be positive");
+        if (age == null|| age <= 0) throw new IllegalArgumentException("age must be positive");
 
         this.memberId = memberId;
         this.name = name;
