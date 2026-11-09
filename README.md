@@ -38,16 +38,26 @@ Describe two or three important problems you identified
 in your original code. Explain what you changed and
 why it works now.
 
+[1] Age field not made final: Made age field final.
+[2] Different scanner objects used for getting menu option and member details: Made use of a single static scanner object used for both menu input and getting member details. Made code cleaner.
+[3]  Message not displayed if user tries to search or remove member when arraylist is empty: Message displayed telling user the member arraylist is empty, when trying to search or remove member.
+
 ## 3. Reflection
 
 **What did you understand during the examination
 but struggle to implement?**
 
+- n/a
+
 **What was the most important thing you learned
 from correcting your code?**
 
+- cleaner approach to solving problems
+
 **What would you do differently in your next
 coding test?**
+
+- spend more time thinking about the problem before coding.
 
 ---
 
