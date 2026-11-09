@@ -3,7 +3,7 @@ package ie.atu.oop.week1;
 public class Member {
     private final String memberId;
     private final String name;
-    private int age;
+    private final int age;
 
     public Member(String memberId, String name, Integer age) {
         if (memberId == null || memberId.isBlank()) throw new IllegalArgumentException("memberId cannot be null or blank");

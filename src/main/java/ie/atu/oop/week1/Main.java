@@ -4,9 +4,9 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
-    public static Member createMember(){
-        Scanner input = new Scanner(System.in);
+    public static  Scanner input = new Scanner(System.in);
 
+    public static Member createMember(){
         String name, id;
         int age;
 
@@ -26,7 +26,6 @@ public class Main {
 
     public static void main(String[] args) {
         MembershipManager manager = new MembershipManager();
-        Scanner input = new Scanner(System.in);
 
         boolean run = true;
         int option;

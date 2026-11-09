@@ -31,6 +31,11 @@ public class MembershipManager {
         return null;
     }
     public Member getMemberByID(String memberId, boolean display){
+        if (members.isEmpty()){
+            System.out.println("[-] There are no members in the system");
+            return null;
+        }
+
         Member m = findMemberByID(memberId);
 
         if (m == null) System.out.println("[-] Member with ID " + memberId + " not found");
