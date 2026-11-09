@@ -7,13 +7,13 @@
 
 **Why I awarded this mark: Specifications met, and works as required.
 [+] Private fields are declared, getter and display methods are provided, and scanner is correctly used to read values for initialisation.
-[-]Age field not made final**
+[-] Age field not made final**
 
 ### Task 2 — /40
 **My mark: 35**
 
 **Why I awarded this mark: Specifications met, and works as required.
-[+]Arraylist used to store member objects (within membership manager class).
+[+] Arraylist used to store member objects (within membership manager class).
 Arraylist maintained until menu s exited.
 Member details are  added by user.
 Member details are displayed. Message displayed if there are no users.
@@ -22,11 +22,15 @@ Users can search member details.
 **
 
 ### Task 3 — /20
-**My mark:**
+**My mark: 18**
 
-**Why I awarded this mark:**
+**Why I awarded this mark: Specifications met, and works as required.
+[+] Members can be removed from arraylist.
+Message is displayed if member to be removed is not in arraylist.
+Error is thrown if member is initialised with a non-positive age
+[-] Message not displayed if user tries to search or remove member when arraylist is empty**
 
-**Total self-assessed grade:** /100
+**Total self-assessed grade:** 91/100
 
 ## 2. Corrections and Improvements
 
