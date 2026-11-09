@@ -5,14 +5,21 @@
 ### Task 1 — /40
 **My mark: 38**
 
-**Why I awarded this mark: Specifications met, and works as required. 
-Private fields are declared, getter and display methods are provided, and scanner is correctly used to read values for initialisation.
-Age field not made final**
+**Why I awarded this mark: Specifications met, and works as required.
+[+] Private fields are declared, getter and display methods are provided, and scanner is correctly used to read values for initialisation.
+[-]Age field not made final**
 
 ### Task 2 — /40
-**My mark:**
+**My mark: 35**
 
-**Why I awarded this mark:**
+**Why I awarded this mark: Specifications met, and works as required.
+[+]Arraylist used to store member objects (within membership manager class).
+Arraylist maintained until menu s exited.
+Member details are  added by user.
+Member details are displayed. Message displayed if there are no users.
+Users can search member details.
+[-] Different scanner objects used for getting menu option and member details.
+**
 
 ### Task 3 — /20
 **My mark:**
