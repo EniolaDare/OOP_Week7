@@ -18,8 +18,7 @@ Arraylist maintained until menu s exited.
 Member details are  added by user.
 Member details are displayed. Message displayed if there are no users.
 Users can search member details.
-[-] Different scanner objects used for getting menu option and member details.
-**
+[-] Different scanner objects used for getting menu option and member details.**
 
 ### Task 3 — /20
 **My mark: 18**
@@ -41,6 +40,8 @@ why it works now.
 [1] Age field not made final: Made age field final.
 [2] Different scanner objects used for getting menu option and member details: Made use of a single static scanner object used for both menu input and getting member details. Made code cleaner.
 [3]  Message not displayed if user tries to search or remove member when arraylist is empty: Message displayed telling user the member arraylist is empty, when trying to search or remove member.
+
+- tested code by using example given in lab exam and by manually testing each option
 
 ## 3. Reflection
 
